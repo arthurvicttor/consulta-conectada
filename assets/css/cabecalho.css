@@ -1,0 +1,23 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.horario{
+    font-size: 0.9em;
+}
+
+.icones__lista{
+    display: flex;
+}
+
+.icones__lista-item{
+    padding-right: 1em;
+}
+
+@media (min-width: 768px){
+    .cabecalho{
+        display: none;
+    }
+}

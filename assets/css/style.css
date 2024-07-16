@@ -1,0 +1,31 @@
+@import url(./cabecalho.css);
+@import url(./botoes.css);
+@import url(./botao-flutuante.css);
+@import url(./avatar-home.css);
+@import url(./consultas.css);
+@import url(./rodape.css);
+
+:root{
+    --texto: #464646;
+    --texto-claro: #A3A3A3;
+    --fundo: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+    --fundo-card: #FFF;
+  
+    --cor-primaria: #4894FF;
+    --cor-secundaria: #FFB050;
+    --branco: #FFF;
+    --cinza: #ECECEC;
+    --cinza-secundario: #F6F6F6;
+    --fonte-principal: 'Montserrat', sans-serif;
+  }
+
+
+
+body {
+    background-color: var(--fundo);
+    height: 100vh;
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+    width: 100%;
+}
